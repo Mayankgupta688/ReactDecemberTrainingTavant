@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { EmployeeListComponent } from "./empComponents/EmployeeListComponent";
+import { SBIStockComponent } from "./state/SBIStockComponent";
 
-ReactDOM.render(<EmployeeListComponent></EmployeeListComponent>,  document.getElementById("root"));
+ReactDOM.render(<SBIStockComponent></SBIStockComponent>,  document.getElementById("root"));
