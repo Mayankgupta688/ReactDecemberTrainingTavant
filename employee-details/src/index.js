@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import { SBIStockComponent } from "./state/SBIStockComponent";
+import Component from "./hooks/UpdateEmployeeHooksComponent";
 
-ReactDOM.render(<SBIStockComponent></SBIStockComponent>,  document.getElementById("root"));
+ReactDOM.render(<Component></Component>,  document.getElementById("root"));
